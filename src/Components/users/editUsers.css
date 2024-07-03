@@ -1,0 +1,285 @@
+.alert-edit-user-container .alert-hidden-all-page {
+  /* background-color: transparent; */
+}
+
+.data-table-container .add-new-user {
+  align-items: center;
+  width: 40px;
+  border-radius: 10px;
+  cursor: pointer;
+  display: flex;
+  padding: 10px;
+  flex-direction: row;
+  font-size: 1.4rem;
+  height: 30px;
+  justify-content: center;
+  line-height: 1.5;
+  transition: all 0.3s ease-in-out;
+  background-color: var(--main-color);
+  color: var(--txt-white);
+  position: absolute;
+  top: 1.5rem;
+  z-index: 100;
+  left: 1rem;
+}
+
+.alert-edit-user {
+  position: absolute;
+  top: 50%;
+  z-index: 105;
+  left: 50%;
+  width: 90vw;
+  max-width: 500px;
+  transform: translate(-50%, -50%);
+  background-color: var(--main-bg);
+  padding: 10px 15px;
+  border-radius: 3px;
+  box-shadow: var(--box-shadow);
+}
+
+.alert-edit-user .error {
+  color: red;
+}
+
+.alert-edit-user .alert-edit-users-head {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  margin: 10px 5px 20px 0;
+}
+
+.alert-edit-user .alert-edit-users-head .close-user-icon {
+  font-size: 1.7rem;
+  color: var(--txt-color);
+  fill: var(--txt-color);
+  opacity: 0.6;
+  stroke: var(--txt-color);
+  cursor: pointer;
+}
+
+.alert-edit-user .alert-edit-users-head h3 {
+  font-size: 1.1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: var(--second-bg);
+  line-height: 2;
+  font-weight: bold;
+}
+
+.alert-edit-user .alert-edit-users-head h3 b a {
+  color: var(--main-color);
+}
+
+.alert-edit-user .alert-edit-users-head h3 b a:hover {
+  text-decoration: underline;
+}
+
+.edit-user-body .users-edit-rows {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-rows: minmax(35px, auto);
+  align-items: center;
+  max-height: 65vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+  box-shadow: 0 5px 4px -7px var(--txt-color);
+}
+
+@media screen and (max-width: 400px) {
+  .alert-edit-user .edit-user-body .users-edit-rows .user-row {
+    grid-column: 1 / 3;
+  }
+}
+
+.alert-edit-user .edit-user-body.loading {
+  position: relative;
+  overflow: hidden;
+  opacity: 0.6;
+}
+
+.alert-edit-user .edit-user-body.loading::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 999999;
+}
+
+.alert-edit-user .edit-user-body .users-edit-rows {
+  padding: 10px 0;
+}
+
+.alert-edit-user .edit-user-body .users-edit-rows .user-row {
+  margin: 10px 15px;
+}
+
+.alert-edit-user .edit-user-body .users-edit-rows .user-row.textarea {
+  grid-column: 1/3;
+}
+
+.alert-edit-user .edit-user-body .users-edit-rows .user-row .switcher {
+  width: 100%;
+  padding: 10px 8px;
+  border-radius: 3px;
+  margin: 0;
+  color: var(--txt-color);
+  background-color: var(--main-bg);
+  border: 1px solid var(--border-table);
+  font-size: 0.8rem;
+  font-weight: 600;
+  white-space: nowrap;
+  overflow-y: auto;
+  max-height: 100%;
+  display: flex;
+  overflow-x: hidden;
+  cursor: pointer;
+}
+
+.alert-edit-user .edit-user-body .users-edit-rows .user-row .switcher label {
+  pointer-events: none;
+}
+
+.edit-user-alert .row .title-row,
+.alert-edit-user .edit-user-body .users-edit-rows .user-row p {
+  margin: 0;
+  text-align: right;
+  font-size: 12px;
+  color: var(--txt-color);
+  margin: 0 5px 5px 0;
+  font-weight: 600;
+}
+
+.edit-user-alert .row .select-placeholder p.selected {
+  font-size: 0.8rem;
+  margin: 0;
+}
+
+.edit-user-alert .row .select-placeholder,
+.alert-edit-user .edit-user-body .users-edit-rows .user-row input,
+.alert-edit-user .edit-user-body .users-edit-rows .user-row textarea,
+.alert-edit-user .edit-user-body .users-edit-rows .user-row select {
+  width: 100%;
+  padding: 10px 8px;
+  border-radius: 3px;
+  margin: 0;
+  color: var(--txt-color);
+  background-color: var(--main-bg);
+  border: 1px solid var(--border-table);
+  font-size: 0.8rem;
+  font-weight: 600;
+  white-space: nowrap;
+  overflow-y: auto;
+  max-height: 100%;
+  overflow-x: hidden;
+}
+
+.edit-travel-alert .select-menu,
+.users-edit-rows .select-menu,
+.select-travel .select-container .select-menu {
+  top: 2.5rem;
+}
+
+.alert-edit-user .edit-user-body .users-edit-rows .user-row textarea {
+  font-family: inherit;
+  white-space: break-spaces;
+  line-height: 1.5;
+  outline: none;
+}
+
+.alert-edit-user .edit-user-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 20px 0 10px 0;
+  position: relative;
+}
+
+.alert-edit-user .edit-user-buttons .buttons {
+  display: flex;
+  justify-content: flex-end;
+
+  position: relative;
+}
+
+.alert-edit-user .edit-user-buttons .show-alert-pass {
+  font-size: 0.9rem;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  -webkit-user-select: none;
+  user-select: none;
+  margin-right: 20px;
+}
+
+@media screen and (max-width: 470px) {
+  .alert-edit-user .edit-user-buttons {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .alert-edit-user .edit-user-buttons .buttons {
+    float: left;
+  }
+
+  .alert-edit-user .edit-user-buttons .show-alert-pass {
+    float: right;
+    padding: 10px 0px 25px 10px;
+  }
+}
+
+.alert-edit-user .edit-user-buttons .back-btn,
+.alert-edit-user .edit-user-buttons button[type="submit"] {
+  padding: 8px 5px;
+  text-align: center;
+  font-size: 0.8rem;
+  margin: 0 0 0 10px;
+  min-width: 95px;
+  border-radius: 5px;
+  letter-spacing: 1px;
+  box-sizing: border-box;
+  font-weight: 100;
+  vertical-align: middle;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.edit-user-alert .row {
+  color: var(--txt-color);
+  background-color: var(--main-bg);
+  outline: none;
+  transition: border-color 0.15s ease;
+  word-break: break-word;
+  position: relative;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.alert-edit-user .edit-user-buttons .back-btn:hover,
+.alert-edit-user .edit-user-buttons button[type="submit"]:hover {
+  opacity: 0.6;
+}
+
+.alert-edit-user .edit-user-buttons .back-btn {
+  background-color: var(--main-bg);
+  color: var(--main-color);
+  border: 1px solid var(--main-color);
+}
+
+.alert-edit-user .edit-user-buttons button[type="submit"] {
+  background-color: var(--main-color);
+  color: var(--txt-white);
+  border: 0;
+}
+
+.edit-user-alert .select-input {
+  padding-right: 5px;
+  font-size: 0.8rem;
+  font-weight: 600;
+}

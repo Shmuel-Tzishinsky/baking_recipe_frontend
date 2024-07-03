@@ -1,0 +1,170 @@
+.customers-Register {
+  color: var(--txt-color);
+  background-color: var(--main-bg);
+  min-height: 100vh;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  width: 100%;
+  direction: rtl;
+}
+
+.form_container {
+  padding: 20px 30px 20px 30px;
+  border-radius: var(--border-radius);
+  max-width: 400px;
+  width: 100%;
+}
+
+.Register-form {
+  margin: 0 -15px;
+}
+
+.form_container .page-header {
+  padding: 5px 0 5px 0;
+  text-align: center;
+}
+.form_container p {
+  padding: 5px 0 0px 0;
+  text-align: center;
+  color: var(--border-table);
+}
+.Register-form {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  direction: rtl;
+  max-width: 350px;
+  margin: 0 auto;
+}
+
+.Register-form > div {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.Register-form .input-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Register-form label {
+  padding: 10px 7px;
+  width: 100%;
+  font-weight: bold;
+  text-align: right;
+}
+
+.Register-form .input-container > svg,
+.Register-form .input-container > i {
+  font-size: 1.5rem;
+  position: absolute;
+  left: 20px;
+}
+
+.Register-form input:focus {
+  border: 0 !important;
+}
+
+.Register-form input:focus {
+  border: 0 !important;
+}
+
+.Register-form input:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 50px var(--main-bg) inset;
+  -webkit-text-fill-color: var(--txt-color);
+  border: 0;
+}
+
+.Register-form input:-webkit-autofill:focus {
+  -webkit-box-shadow: 0 0 0 50px var(--main-bg) inset;
+  -webkit-text-fill-color: var(--txt-color);
+  border: 0;
+}
+
+.Register-form input > svg,
+.Register-form input > i {
+  font-size: 1.5rem;
+  position: absolute;
+  left: 20px;
+}
+
+.Register-form .input-container {
+  position: relative;
+  height: 50px;
+  background-color: var(--main-bg);
+  display: grid;
+  align-items: center;
+  /* box-shadow: var(--box-shadow); */
+  border: 1px solid rgb(209, 211, 226) !important;
+  border-radius: 40px;
+  overflow: hidden;
+  width: 100%;
+}
+
+.Register-form input {
+  padding: 10px 10px 10px 20px;
+  font-size: 1rem;
+  direction: rtl;
+  color: var(--txt-color);
+  background-color: var(--main-bg);
+}
+
+.Register-form .label-checkbox {
+  display: flex;
+  align-items: center;
+  font-size: 0.8rem;
+}
+
+.Register-form .label-checkbox input[type="checkbox"] {
+  margin-left: 6px;
+}
+
+.Register-form .error {
+  padding: 12px 10px;
+  background-color: #f2dede;
+  width: 100%;
+  text-align: center;
+  font-size: 0.9rem;
+  border-radius: 5px;
+  border: 1px solid #db929e;
+  color: #d34643;
+}
+
+.Register-form .Register-form-button {
+  width: 100%;
+  padding: 14px 30px;
+  border-radius: 40px;
+  font-size: 1.2rem;
+  color: var(--txt-white);
+  background-color: var(--main-color);
+  margin: 15px 0px 10px 0px;
+  font-weight: bold;
+}
+
+.Register-form .Register-form-button:disabled {
+  opacity: 0.5;
+}
+
+.Register-form .footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-size: 15px;
+  margin-top: 14px;
+}
+
+.Register-form .footer a {
+  color: var(--main-color);
+  font-weight: bold;
+  margin-right: 4px;
+}

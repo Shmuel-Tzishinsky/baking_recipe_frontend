@@ -1,0 +1,56 @@
+.menu-item label {
+    transform: scale(0.75);
+    margin-right: auto;
+    display: inline-flex;
+    align-items: center;
+    position: relative;
+    margin-left: 0.4rem;
+    pointer-events: none;
+}
+
+.Switcher input {
+    height: 0;
+    width: 0;
+    visibility: hidden;
+    position: absolute;
+    z-index: 2;
+    opacity: 0;
+    pointer-events: none;
+}
+
+
+
+.Switcher .widget {
+    cursor: pointer;
+    text-indent: -999px;
+    width: 2.125rem;
+    height: 0.875rem;
+    background-color: var(--color-gray);
+    display: inline-block;
+    border-radius: 0.5rem;
+    position: relative;
+    transition: background-color 150ms;
+}
+
+.Switcher input:checked+.widget:after {
+    transform: translateX(100%);
+    border: 0.125rem solid var(--main-color);
+
+}
+
+.Switcher input:checked+.widget {
+    background: var(--main-color);
+}
+
+.Switcher input+.widget:after {
+    content: "";
+    position: absolute;
+    top: -0.24rem;
+    left: -0.3rem;
+    width: 1.125rem;
+    height: 1.125rem;
+    background-color: var(--main-bg);
+    border-radius: 0.75rem;
+    transition: transform 200ms;
+    border: 0.125rem solid var(--color-gray);
+}

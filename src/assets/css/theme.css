@@ -1,0 +1,44 @@
+.theme-color-blue {
+    --main-color: var(--main-color-blue);
+    --second-color: var(--second-color-blue);
+}
+
+.theme-color-red {
+    --main-color: var(--main-color-red);
+    --second-color: var(--second-color-red);
+}
+
+.theme-color-cyan {
+    --main-color: var(--main-color-cyan);
+    --second-color: var(--second-color-cyan);
+}
+
+.theme-color-green {
+    --main-color: var(--main-color-green);
+    --second-color: var(--second-color-green);
+}
+
+.theme-color-orange {
+    --main-color: var(--main-color-orange);
+    --second-color: var(--second-color-orange);
+}
+
+.theme-color-purple {
+    --main-color: var(--main-color-purple);
+    --second-color: var(--second-color-purple);
+}
+
+.theme-color-yellow {
+    --main-color: var(--main-color-yellow);
+    --second-color: var(--second-color-yellow);
+}
+
+.theme-color-pink {
+    --main-color: var(--main-color-pink);
+    --second-color: var(--second-color-pink);
+}
+
+.theme-color-strongBlue {
+    --main-color: var(--main-color-strongBlue);
+    --second-color: var(--second-color-strongBlue);
+}

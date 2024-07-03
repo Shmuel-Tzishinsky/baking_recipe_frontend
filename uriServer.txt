@@ -1,0 +1,9 @@
+  // old backend
+  "apiUrl":"https://kavim-soker-api.onrender.com/api"
+
+  // on my pc
+  "apiUrl": "http://192.168.150.179:5000/api"
+
+  //new backend
+  "apiUrl": "https://us-central1-soker-bus-dade2.cloudfunctions.net/api/api"
+

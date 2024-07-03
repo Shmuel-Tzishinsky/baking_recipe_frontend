@@ -1,0 +1,97 @@
+.start-travel {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border: 2px solid var(--txt-color);
+    background-color: var(--main-bg);
+    color: var(--txt-color);
+    cursor: pointer;
+    border-radius: 50%;
+    width: 50vw;
+    height: 50vw;
+    min-width: 160px;
+    min-height: 160px;
+    max-width: 220px;
+    max-height: 220px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    box-shadow: var(--box-shadow);
+    transform: translate(-50%, -50%);
+    font-size: 2rem;
+    transition: border 300ms var(--transition-cubic);
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.start-travel.loading {
+    box-shadow: inset var(--box-shadow);
+    color: var(--main-color);
+    border: 5px solid var(--main-color);
+}
+
+.start-travel.loading svg {
+    fill: var(--main-color);
+}
+
+.start-travel span {
+    pointer-events: none;
+}
+
+.start-travel svg {
+    pointer-events: none;
+    transition: all 300ms var(--transition-cubic);
+}
+
+
+
+
+
+.first-station {
+    position: relative;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 30px 0;
+}
+
+.first-station h2 {
+    text-align: center;
+    direction: rtl;
+}
+
+.first-station svg {
+    width: 80px;
+    height: 80px;
+    fill: var(--txt-color);
+}
+
+.start-travel.openDoor {
+    animation: openDoor-station .20s linear;
+}
+
+.start-travel.busInTheStation {
+    animation: busInTheStation-station .20s linear;
+}
+
+@keyframes openDoor-station {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes busInTheStation-station {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}

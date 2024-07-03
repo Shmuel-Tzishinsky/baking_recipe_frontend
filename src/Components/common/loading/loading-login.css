@@ -1,0 +1,30 @@
+.loading-login {
+  display: flex;
+  justify-content: center;
+}
+
+.loading-login-full-height {
+  align-items: center;
+  height: 100%;
+}
+
+.loading-login::after {
+  content: '';
+  width: 20px;
+  height: 20px;
+  border: 2px solid #dddddd;
+  border-top-color: #006ce1;
+  border-radius: 50%;
+  transform: rotate(0.16turn);
+  animation: loading-login 1s ease infinite;
+}
+
+@keyframes loading-login {
+  from {
+    transform: rotate(0turn);
+  }
+
+  to {
+    transform: rotate(1turn);
+  }
+}

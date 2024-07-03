@@ -1,0 +1,46 @@
+.code404 {
+    padding-top: 3rem;
+    margin: 0 auto;
+    direction: rtl;
+    color: var(--txt-color);
+    box-shadow: var(--box-shadow);
+    width: 20rem;
+    padding: 1rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+}
+
+.code404 h1 {
+    font-size: 6rem;
+}
+
+.code404 h2 {
+    font-size: 1.5rem;
+    margin: 1rem;
+}
+
+.code404 button {
+    background-color: var(--main-bg);
+    padding: 1rem 1.635rem;
+    margin: 1rem;
+    border: 1px solid var(--txt-color);
+    border-radius: 7px;
+    transition: all 0.2s ease-in-out;
+    color: var(--txt-color);
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+.code404 button a {
+    text-decoration: none;
+    color: var(--txt-color);
+
+}
+
+.code404 button:hover,
+.code404 button:active {
+    background-color: var(--color-shadow);
+}

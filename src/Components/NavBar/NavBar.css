@@ -1,0 +1,67 @@
+.NavBar{
+    position: fixed;
+    bottom: 0;
+    left: 50% ;
+    transform: translateX(-50%);
+    width: 100%;
+    max-width: 700px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-radius: 20px 20px 0 0;
+    box-shadow: var(--box-shadow);
+    direction: ltr;
+    z-index: 999999;
+    background-color:  var(--main-bg);
+    padding: 8px 0;
+}
+
+.NavBar .con-nav{
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    color:  var(--txt-color);
+    font-size: 26px;
+    cursor: pointer;
+    outline: none;
+    transition: all 150ms ease-in-out;
+}
+
+.NavBar .NavBar-name{
+    margin-top: 6px;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: .7%;
+    
+}
+
+.NavBar .middle .NavBar-name{
+   margin-top: 32px;
+}
+
+.NavBar .middle .middle{
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    background-color: var(--main-color);
+    color: var(--txt-white);
+    opacity: 1;
+    position: absolute;
+    display: grid;
+    place-items: center;
+    top: -30%;
+}
+
+.NavBar .con-nav:hover .NavBar-name{
+    color: var(--main-color);
+}
+
+
+.NavBar .active-link {
+    color: var(--main-color);
+    font-weight: bold;
+    opacity: 1;
+  }

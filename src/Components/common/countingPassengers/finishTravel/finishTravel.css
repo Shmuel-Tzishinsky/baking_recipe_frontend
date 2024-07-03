@@ -1,0 +1,173 @@
+.hidden-all-page {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    background-color: rgba(30, 30, 30, 0.471);
+
+}
+
+.finish-travel-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 99;
+}
+
+
+.finish-travel-container .finish-travel-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: right;
+    background-color: var(--main-bg);
+    flex-direction: column;
+    max-width: 300px;
+    border-radius: 18px;
+    overflow: hidden;
+    padding: 4px 10px 10px 10px;
+    transition: 400ms;
+    box-shadow: 4px 4px 7px -1px black, -4px -4px 11px -10px white;
+    /* transform: translate3d(0, -1rem, 0); */
+    animation: show-form .20s linear;
+    direction: rtl;
+    z-index: 101;
+
+}
+
+@keyframes show-form {
+    0% {
+
+        transform: translate3d(0, -1rem, 0);
+    }
+
+    100% {
+
+        transform: translate3d(0, 0, 0);
+    }
+
+}
+
+
+.finish-travel-form .error {
+    padding: 12px 10px;
+    background-color: #f2dede;
+    width: calc(100% - 24px);
+    text-align: center;
+    font-size: 0.9rem;
+    border-radius: 5px;
+    border: 1px solid #db929e;
+    color: #d34643;
+    margin: 0 auto 10px auto;
+}
+
+.finish-travel-form h1 {
+    text-align: center;
+    letter-spacing: 1px;
+    margin: 20px;
+    color: var(--txt-color);
+    border-bottom: 2px solid var(--txt-color);
+    /* animation: table .20s linear; */
+
+}
+
+.finish-travel-form table {
+    font-size: 1.5rem;
+    width: 280px;
+    min-width: 280px;
+    display: table;
+    text-align: right;
+    direction: ltr;
+    padding: 0 10px;
+
+}
+
+.finish-travel-form h2 {
+    text-align: center;
+}
+
+.finish-travel-form table .th,
+.finish-travel-form table td {
+    padding: 8px 5px 8px 5px;
+    text-align: center;
+    direction: rtl;
+}
+
+.finish-travel-form table .th {
+    text-align: right;
+    font-weight: 600;
+    font-size: 0.8em;
+}
+
+.finish-travel-form table td {
+    font-size: 0.9em;
+}
+
+.finish-travel-form table td textarea {
+    padding: 10px;
+    width: 100% !important;
+    height: 100% !important;
+    color: var(--txt-color);
+    border-radius: 5px;
+    background-color: var(--main-bg);
+    outline: none;
+    font-family: 'Roboto';
+    letter-spacing: 0.5px;
+    font-size: 1.2rem;
+    direction: rtl;
+    font-weight: 600;
+}
+
+.finish-travel-form b {
+    color: var(--main-color);
+}
+
+.finish-travel-form table .select-back,
+.finish-travel-form table .select-finish {
+    width: 40%;
+    padding: 13px 20px;
+    font-size: 1rem;
+    background: var(--main-color);
+    letter-spacing: 0.5px;
+    border-radius: 7px;
+    margin-top: 10px;
+    text-align: center;
+    color: var(--txt-white);
+    cursor: pointer;
+    margin-bottom: 1px;
+    transition: 350ms var(--transition-cubic);
+    width: 90%;
+}
+
+.finish-travel-form table .select-finish:not(:disabled):active {
+    color: var(--main-color);
+    background-color: var(--main-bg);
+    box-shadow: 0px 0px 0 1px var(--main-color);
+}
+
+.finish-travel-form table .select-back {
+    float: right;
+    color: var(--main-color);
+    background-color: var(--main-bg);
+    box-shadow: 0px 0px 0 1px var(--main-color);
+    margin-right: 10px;
+}
+
+.finish-travel-form table .select-back:active {
+    color: var(--txt-color);
+    background-color: var(--main-color);
+    box-shadow: none
+}
+
+.finish-travel-form table .select-finish {
+    float: left;
+    margin-left: 10px;
+}

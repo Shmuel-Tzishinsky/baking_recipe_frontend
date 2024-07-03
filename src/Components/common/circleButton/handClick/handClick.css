@@ -1,0 +1,101 @@
+.hand-click {
+    position: absolute;
+    width: 100%;
+    border-radius: 50%;
+    height: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation-delay: 500ms;
+    overflow: hidden;
+}
+
+.hand-click .borders {
+    position: absolute;
+    width: 80%;
+    height: 80%;
+    border-left: 2px solid var(--txt-color);
+    border-right: 2px solid var(--txt-color);
+    border-top: 2px solid transparent;
+    border-bottom: 2px solid transparent;
+    border-radius: 50%;
+    /* animation-delay: 500ms; */
+    animation: borders 1500ms ease infinite;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@keyframes borders {
+    0% {
+        opacity: 0;
+        width: 65%;
+        height: 65%;
+
+    }
+
+    20% {
+        opacity: 0;
+        width: 65%;
+        height: 65%;
+
+    }
+
+    40% {
+        opacity: 0;
+        width: 65%;
+        height: 65%;
+
+    }
+
+    50% {
+        opacity: 0;
+
+        width: 65%;
+        height: 65%;
+    }
+
+    60% {
+        opacity: 1;
+        width: 80%;
+        height: 80%;
+    }
+
+    80% {
+        opacity: 0;
+
+        width: 65%;
+        height: 65%;
+    }
+
+    100% {
+
+        opacity: 1;
+        width: 80%;
+        height: 80%;
+    }
+}
+
+.hand-click .icon {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: icon-hand 1500ms ease infinite;
+    opacity: 0;
+
+}
+
+@keyframes icon-hand {
+    from {
+        top: 150%;
+        opacity: 0;
+        transform: translate(-50%, -50%) scale(1);
+    }
+
+    to {
+        opacity: 1;
+        top: 80%;
+        transform: translate(-50%, -50%) scale(.7);
+    }
+}

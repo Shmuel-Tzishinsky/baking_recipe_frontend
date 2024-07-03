@@ -1,0 +1,80 @@
+.counting-passengers .add-remarks {
+    position: absolute;
+    top: 8px;
+    right: -55px;
+    width: 381.33px;
+    max-width: 120%;
+    text-align: center;
+    background-color: var(--main-bg);
+    color: var(--txt-color);
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    z-index: 1;
+    direction: rtl;
+    cursor: pointer;
+    overflow: hidden;
+    padding-left: 10px;
+    transition: all.40s ease;
+    box-shadow: 0px 0 8px -1px var(--txt-color);
+}
+
+
+.counting-passengers .add-remarks.show {
+    right: 0;
+    width: 48px !important;
+    font-size: 1.5rem;
+    animation-delay: .40s;
+    height: 52px;
+    box-shadow: var(--box-shadow);
+}
+
+.counting-passengers .add-remarks.show .bell {
+    color: var(--main-color);
+    float: left;
+    margin: 0 10px 0 2px;
+    padding-top: 8px;
+}
+
+
+.counting-passengers .add-remarks .bell {
+    padding-left: 30px;
+
+}
+
+
+.counting-passengers .add-remarks .confirm {
+    height: 100%;
+    white-space: nowrap;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.counting-passengers .add-remarks textarea {
+    margin: 8px 0px;
+    padding: 15px;
+    background: var(--main-bg);
+    color: var(--txt-color);
+    padding: 15px 10px 15px 10px;
+    border-radius: 15px;
+    font-size: 0.8rem;
+    overflow-x: hidden;
+    font-family: 'Roboto';
+    letter-spacing: 0.5px;
+    font-size: 1.2rem;
+    direction: rtl;
+    font-weight: 600;
+}
+
+.counting-passengers .add-remarks .confirm div:not(.text):not(.bell) {
+    padding: 0px;
+    font-size: 2.4rem;
+    line-height: 1px;
+    margin-right: 3px;
+}
+
+.counting-passengers .add-remarks .yes {
+    /* border-right: 1px solid #4555603d; */
+    color: var(--main-color);
+}

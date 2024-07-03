@@ -1,0 +1,70 @@
+.menu-item .set-color {
+    transform: scale(0.75);
+    margin-right: auto;
+    display: inline-flex;
+    align-items: center;
+    position: relative;
+    margin-left: 0.3rem;
+    pointer-events: none;
+}
+
+.menu-item .set-color.active .caret {
+    transform: rotate(180deg)
+}
+
+.menu-item .set-color .caret {
+    transform: scale(1.2);
+    color: var(--txt-color);
+    float: left;
+    margin-right: 1rem;
+    transition: transform .1s ease-in-out;
+}
+
+.menu-item.list-colors {
+    backdrop-filter: blur(10px) !important;
+    background-color: var(--color-background-compact-menu-hover) !important;
+    display: flex;
+    flex-direction: row-reverse;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 0 0.35rem;
+    border-radius: 7px;
+    animation: list-colors .1s ease forwards;
+    max-width: 216px;
+    flex-wrap: wrap;
+    transform: none !important;
+
+}
+
+@keyframes list-colors {
+    0% {
+        height: 0;
+        opacity: 0;
+        padding: 0 0.35rem;
+    }
+
+    100% {
+        padding: 0.45rem 0.35rem;
+        opacity: 1;
+        height: 64.63px;
+    }
+}
+
+
+.menu-item.list-colors .color-item {
+    transform: scale(0.85);
+    border-radius: 50%;
+    margin: 0 0.3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-item.list-colors .color-item .point {
+    border-radius: 50%;
+    padding: 0.350rem;
+    background-color: var(--txt-white);
+
+}
