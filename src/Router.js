@@ -26,7 +26,7 @@ const RecipeData = lazy(() => import("./Components/RecipeData/RecipeData"));
 export default function Router() {
   return (
     <Suspense fallback={<h1 style={{ direction: "rtl" }}>טוען עמוד..</h1>}>
-      <BrowserRouter basename="/baking_recipe_frontend/">
+      <BrowserRouter basename="/baking_recipe_frontend">
         <AuthProvider>
           <UserProvider>
             <Routes>

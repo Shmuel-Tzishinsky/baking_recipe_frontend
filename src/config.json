@@ -1,4 +1,5 @@
 {
-  "apiUrl": "http://192.168.33.8:5000/api",
+  "apiUrl": "https://baking-recipe-backend.onrender.com/api",
+  "apiUrl-local": "http://192.168.33.8:5000/api",
   "del": "https://us-central1-soker-bus-dade2.cloudfunctions.net/api/api"
 }
