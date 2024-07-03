@@ -6,7 +6,12 @@ import { NavMenu } from "./Components/common/navMenu/NavMenu";
 import { NavBar } from "./Components/NavBar/NavBar";
 import { RecipesProvider } from "./context/Recipe/RecipesContext";
 
-const ProtectedRoute = ({ redirectPath = "/login", children, adminRoute, adminContextRoute }) => {
+const ProtectedRoute = ({
+  redirectPath = "/baking_recipe_frontend/login",
+  children,
+  adminRoute,
+  adminContextRoute,
+}) => {
   const { AuthReset, userState } = useAuth();
 
   if (!userState.token?._id) {
