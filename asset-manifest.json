@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/baking_recipe_frontend/static/css/main.26558f0e.css",
-    "main.js": "/baking_recipe_frontend/static/js/main.d8ed917b.js",
+    "main.js": "/baking_recipe_frontend/static/js/main.6fc42ea7.js",
     "static/css/835.6b9433ca.chunk.css": "/baking_recipe_frontend/static/css/835.6b9433ca.chunk.css",
     "static/js/835.ab760359.chunk.js": "/baking_recipe_frontend/static/js/835.ab760359.chunk.js",
     "static/css/497.6b85675c.chunk.css": "/baking_recipe_frontend/static/css/497.6b85675c.chunk.css",
-    "static/js/497.2fa3375e.chunk.js": "/baking_recipe_frontend/static/js/497.2fa3375e.chunk.js",
+    "static/js/497.4fd66f4d.chunk.js": "/baking_recipe_frontend/static/js/497.4fd66f4d.chunk.js",
     "static/css/813.4bfac5f4.chunk.css": "/baking_recipe_frontend/static/css/813.4bfac5f4.chunk.css",
-    "static/js/813.3fa27571.chunk.js": "/baking_recipe_frontend/static/js/813.3fa27571.chunk.js",
+    "static/js/813.b72dfd3e.chunk.js": "/baking_recipe_frontend/static/js/813.b72dfd3e.chunk.js",
     "static/css/683.adb123a2.chunk.css": "/baking_recipe_frontend/static/css/683.adb123a2.chunk.css",
     "static/js/683.41c62f09.chunk.js": "/baking_recipe_frontend/static/js/683.41c62f09.chunk.js",
     "static/css/717.31d6cfe0.chunk.css": "/baking_recipe_frontend/static/css/717.31d6cfe0.chunk.css",
@@ -19,7 +19,7 @@
     "static/css/255.342d93fa.chunk.css": "/baking_recipe_frontend/static/css/255.342d93fa.chunk.css",
     "static/js/255.594af02a.chunk.js": "/baking_recipe_frontend/static/js/255.594af02a.chunk.js",
     "static/css/196.fbe509b5.chunk.css": "/baking_recipe_frontend/static/css/196.fbe509b5.chunk.css",
-    "static/js/196.3174c0a9.chunk.js": "/baking_recipe_frontend/static/js/196.3174c0a9.chunk.js",
+    "static/js/196.9eab3db4.chunk.js": "/baking_recipe_frontend/static/js/196.9eab3db4.chunk.js",
     "static/js/350.af626473.chunk.js": "/baking_recipe_frontend/static/js/350.af626473.chunk.js",
     "static/js/369.9b92e12c.chunk.js": "/baking_recipe_frontend/static/js/369.9b92e12c.chunk.js",
     "static/media/3.png": "/baking_recipe_frontend/static/media/3.f2853c4a54fd8dedc11e.png",
@@ -37,13 +37,13 @@
     "static/media/3.woff2": "/baking_recipe_frontend/static/media/3.465390c6e54c60f4a15f.woff2",
     "index.html": "/baking_recipe_frontend/index.html",
     "main.26558f0e.css.map": "/baking_recipe_frontend/static/css/main.26558f0e.css.map",
-    "main.d8ed917b.js.map": "/baking_recipe_frontend/static/js/main.d8ed917b.js.map",
+    "main.6fc42ea7.js.map": "/baking_recipe_frontend/static/js/main.6fc42ea7.js.map",
     "835.6b9433ca.chunk.css.map": "/baking_recipe_frontend/static/css/835.6b9433ca.chunk.css.map",
     "835.ab760359.chunk.js.map": "/baking_recipe_frontend/static/js/835.ab760359.chunk.js.map",
     "497.6b85675c.chunk.css.map": "/baking_recipe_frontend/static/css/497.6b85675c.chunk.css.map",
-    "497.2fa3375e.chunk.js.map": "/baking_recipe_frontend/static/js/497.2fa3375e.chunk.js.map",
+    "497.4fd66f4d.chunk.js.map": "/baking_recipe_frontend/static/js/497.4fd66f4d.chunk.js.map",
     "813.4bfac5f4.chunk.css.map": "/baking_recipe_frontend/static/css/813.4bfac5f4.chunk.css.map",
-    "813.3fa27571.chunk.js.map": "/baking_recipe_frontend/static/js/813.3fa27571.chunk.js.map",
+    "813.b72dfd3e.chunk.js.map": "/baking_recipe_frontend/static/js/813.b72dfd3e.chunk.js.map",
     "683.adb123a2.chunk.css.map": "/baking_recipe_frontend/static/css/683.adb123a2.chunk.css.map",
     "683.41c62f09.chunk.js.map": "/baking_recipe_frontend/static/js/683.41c62f09.chunk.js.map",
     "717.3f9d61d9.chunk.js.map": "/baking_recipe_frontend/static/js/717.3f9d61d9.chunk.js.map",
@@ -54,12 +54,12 @@
     "255.342d93fa.chunk.css.map": "/baking_recipe_frontend/static/css/255.342d93fa.chunk.css.map",
     "255.594af02a.chunk.js.map": "/baking_recipe_frontend/static/js/255.594af02a.chunk.js.map",
     "196.fbe509b5.chunk.css.map": "/baking_recipe_frontend/static/css/196.fbe509b5.chunk.css.map",
-    "196.3174c0a9.chunk.js.map": "/baking_recipe_frontend/static/js/196.3174c0a9.chunk.js.map",
+    "196.9eab3db4.chunk.js.map": "/baking_recipe_frontend/static/js/196.9eab3db4.chunk.js.map",
     "350.af626473.chunk.js.map": "/baking_recipe_frontend/static/js/350.af626473.chunk.js.map",
     "369.9b92e12c.chunk.js.map": "/baking_recipe_frontend/static/js/369.9b92e12c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.26558f0e.css",
-    "static/js/main.d8ed917b.js"
+    "static/js/main.6fc42ea7.js"
   ]
 }
