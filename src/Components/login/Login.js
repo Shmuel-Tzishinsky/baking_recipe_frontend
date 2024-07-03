@@ -22,7 +22,7 @@ const Login = () => {
   };
 
   return userState.token?._id && !userState.error && !userState.loading ? (
-    <Navigate to={"/"} />
+    <Navigate to={"/baking_recipe_frontend/"} />
   ) : (
     <div className="customers-login">
       <div className="form_container">

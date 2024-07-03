@@ -46,7 +46,7 @@ const Register = () => {
   };
 
   return registerSuccess && !userState.error && !userState.loading ? (
-    <Navigate to={"/login"} />
+    <Navigate to={"/baking_recipe_frontend/login"} />
   ) : (
     <div className="customers-Register">
       <div className="form_container">
