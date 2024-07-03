@@ -116,7 +116,7 @@ export const RecipesProvider = ({ children }) => {
         type: types.RECIPES_DELETE,
         payload: id,
       });
-      navigation("/baking_recipe_frontend/");
+      navigation("/");
       alertSuccess("המתכון נמחק בהצלחה!");
     } catch (error) {
       failure(error);

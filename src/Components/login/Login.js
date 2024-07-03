@@ -22,7 +22,7 @@ const Login = () => {
   };
 
   return userState.token?._id && !userState.error && !userState.loading ? (
-    <Navigate to={"/baking_recipe_frontend/"} />
+    <Navigate to={"/"} />
   ) : (
     <div className="customers-login">
       <div className="form_container">
@@ -87,7 +87,7 @@ const Login = () => {
           </div>
         </form>
         <div className="footer">
-          אין לך חשבון? <Link to="/baking_recipe_frontend/register">הירשם</Link>
+          אין לך חשבון? <Link to="/register">הירשם</Link>
         </div>
       </div>
     </div>

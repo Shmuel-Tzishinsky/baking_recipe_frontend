@@ -46,7 +46,7 @@ const Register = () => {
   };
 
   return registerSuccess && !userState.error && !userState.loading ? (
-    <Navigate to={"/baking_recipe_frontend/login"} />
+    <Navigate to={"/login"} />
   ) : (
     <div className="customers-Register">
       <div className="form_container">
@@ -138,7 +138,7 @@ const Register = () => {
           </div>
         </form>
         <div className="footer">
-          כבר יש לך חשבון? <Link to="/baking_recipe_frontend/login">היכנס</Link>
+          כבר יש לך חשבון? <Link to="/login">היכנס</Link>
         </div>
       </div>
     </div>

@@ -26,24 +26,24 @@ const RecipeData = lazy(() => import("./Components/RecipeData/RecipeData"));
 export default function Router() {
   return (
     <Suspense fallback={<h1 style={{ direction: "rtl" }}>טוען עמוד..</h1>}>
-      <BrowserRouter>
+      <BrowserRouter basename="/baking_recipe_frontend/">
         <AuthProvider>
           <UserProvider>
             <Routes>
-              <Route path="/baking_recipe_frontend/login" element={<Login />} />
-              <Route path="/baking_recipe_frontend/register" element={<Register />} />
+              <Route path="/login" element={<Login />} />
+              <Route path="/register" element={<Register />} />
 
               <Route element={<ProtectedRoute />}>
-                <Route path="/baking_recipe_frontend/" element={<Home />} />
-                <Route path="/baking_recipe_frontend/recipe/:id" element={<RecipeData />} />
-                <Route path="/baking_recipe_frontend/favorite" element={<Favorite />} />
-                <Route path="/baking_recipe_frontend/addnew" element={<AddNew />} />
+                <Route path="/" element={<Home />} />
+                <Route path="/recipe/:id" element={<RecipeData />} />
+                <Route path="/favorite" element={<Favorite />} />
+                <Route path="/addnew" element={<AddNew />} />
 
-                <Route path="/baking_recipe_frontend/statistics" element={<Statistics />} />
+                <Route path="/statistics" element={<Statistics />} />
               </Route>
 
               <Route element={<ProtectedRoute adminRoute={true} />}>
-                <Route path="/baking_recipe_frontend/users" element={<Users />} />
+                <Route path="/users" element={<Users />} />
               </Route>
 
               <Route path="*" element={<Code404 />} />

@@ -36,7 +36,7 @@ const RecipeData = () => {
 
   return (
     <>
-      <Link to={"/baking_recipe_frontend/"} className="back-btn-RecipeData">
+      <Link to={"/"} className="back-btn-RecipeData">
         {<IoChevronBack />}
       </Link>
       {pending ? (

@@ -11,28 +11,28 @@ export function NavBar() {
     {
       icon: () => <IoHomeOutline />,
       content: "בית",
-      route: "/baking_recipe_frontend/",
+      route: "/",
     },
     {
       icon: () => <FaRegBookmark />,
       content: "מועדפים",
-      route: "/baking_recipe_frontend/favorite",
+      route: "/favorite",
     },
     {
       icon: () => <MdOutlinePlaylistAdd />,
       content: "הוספה",
-      route: "/baking_recipe_frontend/addnew",
+      route: "/addnew",
       location: "middle",
     },
     {
       icon: () => <CiUser />,
       content: "משתמשים",
-      route: "/baking_recipe_frontend/users",
+      route: "/users",
     },
     {
       icon: () => <IoStatsChartOutline />,
       content: "סטטיסטיקה",
-      route: "/baking_recipe_frontend/statistics",
+      route: "/statistics",
     },
   ];
 

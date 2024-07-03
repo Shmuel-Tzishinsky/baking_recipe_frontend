@@ -403,7 +403,7 @@ function AddNew() {
             <h2 style={{ margin: "20px 0" }}>הועלה בהצלחה</h2>
             <h4>המתכון שלך הועלה</h4>
             <h4>תוכל/י לראות את זה בדף הבית</h4>
-            <NavLink to="/baking_recipe_frontend/">
+            <NavLink to="/">
               <button className="active">חזרה לדף הבית</button>
             </NavLink>
           </div>

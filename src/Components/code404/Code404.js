@@ -7,7 +7,7 @@ const Code404 = () => {
       <h1>404</h1>
       <h2>לא מצאנו את הדף שחיפשת..</h2>
       <button>
-        <Link to="/baking_recipe_frontend/">חזרה לדף הבית</Link>
+        <Link to="/">חזרה לדף הבית</Link>
       </button>
     </div>
   );

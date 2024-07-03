@@ -47,7 +47,7 @@ export const Dropdown = ({ setAlertDeleteTravel }) => {
       icon: () => <BiCategory />,
       content: "דף הבית",
       callback: () => "",
-      route: "/baking_recipe_frontend/",
+      route: "/",
       display:
         location.pathname !== "/" &&
         (userState.token?.role === "admin" || userState.token?.role === "staff"),
@@ -76,28 +76,28 @@ export const Dropdown = ({ setAlertDeleteTravel }) => {
       icon: () => <FiUsers />,
       content: "משתמשים",
       callback: () => "",
-      route: "/baking_recipe_frontend/users",
+      route: "/users",
       display: userState.token?.role === "admin" || userState.token?.role === "staff",
     },
     {
       icon: () => <MdBarChart />,
       content: "סטטיסטיקות",
       callback: () => "",
-      route: "/baking_recipe_frontend/statistics",
+      route: "/statistics",
       display: userState.token?.role === "admin" || userState.token?.role === "staff",
     },
     {
       icon: () => <MdBarChart />,
       content: "מועדפים",
       callback: () => "",
-      route: "/baking_recipe_frontend/favorite",
+      route: "/favorite",
       display: userState.token?.role === "admin" || userState.token?.role === "staff",
     },
     {
       icon: () => <MdOutlineUploadFile />,
       content: "הוספה",
       callback: () => "",
-      route: "/baking_recipe_frontend/addnew",
+      route: "/addnew",
       display: userState.token?.role === "admin" || userState.token?.role === "staff",
     },
 
@@ -114,7 +114,7 @@ export const Dropdown = ({ setAlertDeleteTravel }) => {
       {location.pathname !== "/" && (
         <h2 className="title-page">
           <div className="icons">
-            <Link to={"/baking_recipe_frontend/"}>
+            <Link to={"/"}>
               <BiHomeAlt />
             </Link>{" "}
             <MdOutlineKeyboardArrowLeft />
