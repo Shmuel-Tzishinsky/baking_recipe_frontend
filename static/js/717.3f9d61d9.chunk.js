@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkbaking_recipe=self.webpackChunkbaking_recipe||[]).push([[717],{3717:(e,s,c)=>{c.r(s),c.d(s,{default:()=>a});c(5043);var i=c(579);const a=()=>(0,i.jsx)("div",{className:"statistic-container",children:(0,i.jsx)("h1",{children:"\u05d4\u05e2\u05de\u05d5\u05d3 \u05e2\u05d5\u05d3 \u05dc\u05d0 \u05e4\u05e2\u05d9\u05dc"})})}}]);
+//# sourceMappingURL=717.3f9d61d9.chunk.js.map

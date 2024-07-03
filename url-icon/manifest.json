@@ -1,0 +1,47 @@
+{
+  "background_color": "#fff",
+  "display": "fullscreen",
+  "theme_color": "#000000",
+  "name": "חוברת מתכונים",
+  "short_name": "חוברת מתכונים",
+  "description": "אפליקציה לשמירת מתכונים",
+  "start_url": ".",
+  "icons": [
+    {
+      "src": "Recipe36.png",
+      "sizes": "36x36",
+      "type": "image/png",
+      "density": "0.75"
+    },
+    {
+      "src": "Recipe48.png",
+      "type": "image/png",
+      "sizes": "48x48"
+    },
+    {
+      "src": "Recipe72.png",
+      "sizes": "72x72",
+      "type": "image/png",
+      "density": "1.5"
+    },
+
+    {
+      "src": "Recipe96.png",
+      "sizes": "96x96",
+      "type": "image/png",
+      "density": "2.0"
+    },
+    {
+      "src": "Recipe144.png",
+      "sizes": "144x144",
+      "type": "image/png",
+      "density": "3.0"
+    },
+    {
+      "src": "Recipe192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "density": "4.0"
+    }
+  ]
+}
