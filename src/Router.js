@@ -30,20 +30,20 @@ export default function Router() {
         <AuthProvider>
           <UserProvider>
             <Routes>
-              <Route path="/login" element={<Login />} />
-              <Route path="/register" element={<Register />} />
+              <Route path="/baking_recipe_frontend/login" element={<Login />} />
+              <Route path="/baking_recipe_frontend/register" element={<Register />} />
 
               <Route element={<ProtectedRoute />}>
-                <Route path="/" element={<Home />} />
-                <Route path="/recipe/:id" element={<RecipeData />} />
-                <Route path="/favorite" element={<Favorite />} />
-                <Route path="/addnew" element={<AddNew />} />
+                <Route path="/baking_recipe_frontend/" element={<Home />} />
+                <Route path="/baking_recipe_frontend/recipe/:id" element={<RecipeData />} />
+                <Route path="/baking_recipe_frontend/favorite" element={<Favorite />} />
+                <Route path="/baking_recipe_frontend/addnew" element={<AddNew />} />
 
-                <Route path="/statistics" element={<Statistics />} />
+                <Route path="/baking_recipe_frontend/statistics" element={<Statistics />} />
               </Route>
 
               <Route element={<ProtectedRoute adminRoute={true} />}>
-                <Route path="/users" element={<Users />} />
+                <Route path="/baking_recipe_frontend/users" element={<Users />} />
               </Route>
 
               <Route path="*" element={<Code404 />} />
