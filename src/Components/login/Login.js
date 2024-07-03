@@ -87,7 +87,7 @@ const Login = () => {
           </div>
         </form>
         <div className="footer">
-          אין לך חשבון? <Link to="/register">הירשם</Link>
+          אין לך חשבון? <Link to="/baking_recipe_frontend/register">הירשם</Link>
         </div>
       </div>
     </div>

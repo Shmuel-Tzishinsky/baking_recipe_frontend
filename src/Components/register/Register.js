@@ -138,7 +138,7 @@ const Register = () => {
           </div>
         </form>
         <div className="footer">
-          כבר יש לך חשבון? <Link to="/login">היכנס</Link>
+          כבר יש לך חשבון? <Link to="/baking_recipe_frontend/login">היכנס</Link>
         </div>
       </div>
     </div>
